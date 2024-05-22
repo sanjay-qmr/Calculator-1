@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin:0px;
+  color:white;
+  font-family:Arial;
+  font-size:25px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+
+  
+}
+
+button:active {
+  opacity: 0.8;
+  
+}
+.gray-buttons {
+  background-color: rgb(77, 76, 76);
+  padding:14px 22px;
+  border-radius: 50px;
+  border:none;
+  margin-left:8px;
+  margin-top:0px;
+}
+.orange-buttons {
+  background-color: orange;
+  padding:14px 22px;
+  border-radius: 50px;
+  border:none;
+  margin-left:8px;
+  margin-top:0px;
+}
+.js-io-display {
+  margin-bottom:0px;
+ 
+  margin-right:10px;
+  padding: 5px;
+  border-style:solid;
+  border-color:rgb(96,96,96);
+  background-color:black;
+
+  width:260px;
+  font-size:25px;
+  color:white;
+}
+.ac-button {
+  background-color: orange;
+  padding:14px 42px;
+  border-radius: 50px;
+  border:none;
+  margin-left:8px;
+  margin-top:0px;
+
+}
+.back-button {
+  background-color: orange;
+  padding:14px 20px;
+  border-radius: 50px;
+  border:none;
+  margin-left:8px;
+  margin-top:0px;
+}
+.calc-div {
+  border-color: rgb(40, 40, 40);
+  border-style:solid;
+  border-width:2px;
+  padding:50px 20px;
+  
+  
+}
+.calc-div:hover {
+  box-shadow: 4px 4px 10px rgba(48, 48, 48, 0.8);
+  transition: box-shadow 0.15s;
+  
+}

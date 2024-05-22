@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc-style.css">
+  </head>
+  <body>
+    <div class="calc-div">
+    <input class="js-io-display">
+    
+    <p>
+      <button onclick="
+    calculation += '1';
+    disp();
+    " class="gray-buttons">1</button>
+
+    <button onclick="
+    calculation += '2';
+    disp();
+    " class="gray-buttons">2</button>
+
+    <button onclick="
+    calculation += '3';
+    disp();
+    " class="gray-buttons">3</button>
+
+    <button onclick="
+      calculation += '+';
+      disp();
+      " class="orange-buttons">+</button>
+
+    </p>
+    <p>
+      <button onclick="
+    calculation += '4';
+    disp();
+    " class="gray-buttons">4</button>
+
+    <button onclick="
+    calculation += '5';
+    disp();
+    " class="gray-buttons">5</button>
+
+    <button onclick="
+    calculation += '6';
+    disp();
+    " class="gray-buttons">6</button>
+
+    <button onclick="
+      calculation += '-';
+      disp();
+      " class="orange-buttons">-</button>
+    </p>
+    <p>
+      <button onclick="
+    calculation += '7';
+    disp();
+    " class="gray-buttons">7</button>
+
+    <button onclick="
+    calculation += '8';
+    disp();
+    " class="gray-buttons">8</button>
+
+    <button onclick="
+    calculation += '9';
+    disp();
+    " class="gray-buttons">9</button>
+
+    <button onclick="
+      calculation += '*';
+      disp();
+      " class="orange-buttons">*</button>
+    </p>
+
+    <p>
+      <button onclick="
+      calculation += '0';
+      disp();
+      " class="gray-buttons">0</button>
+
+      <button onclick="
+      calculation += '.';
+      disp();
+      " class="gray-buttons">.</button>
+
+      <button onclick="
+      calculation = eval(calculation);
+      disp();
+      " class="gray-buttons">=</button>
+
+      <button onclick="
+      calculation += '/';
+      disp();
+      " class="orange-buttons">/</button>
+
+    </p>
+    <p>
+      <button onclick="
+      calculation = '';
+      disp();
+      " class="ac-button">Clear</button>
+
+      <button onclick="
+      calculation = calculation.slice(0, calculation.length-1);
+      disp();
+      " class="back-button">Back</button>
+    </p>
+  </div>
+
+   
+  </body>
+  <script src="clac-js.js"></script>
+</html>
